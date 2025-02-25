@@ -33,13 +33,11 @@ Thread.sleep(3000);
 
 driver.findElement(By.xpath("/html/body/div/div[2]/div[2]/div/button")).click();
 
-System.out.println(driver.getTitle());
-
 Thread.sleep(3000);
 
 driver.findElement(By.xpath("//*[@id=\"r\"]/div/div[1]/ul/li[2]/a/span")).click();
 
-Thread.sleep(3000);
+Thread.sleep(4000);
 
 driver.findElement(By.xpath("//a[normalize-space()='Create']")).click();
 
@@ -61,7 +59,7 @@ driver.findElement(By.xpath("//*[@id=\"r\"]/div/div[1]/ul/li[3]/a/span")).click(
 
 Thread.sleep(3000);
 
-/*driver.findElement(By.xpath("/html/body/div/div[2]/div[1]/div/div[1]/ul/li[3]/ul/li[2]/a")).click();
+driver.findElement(By.xpath("/html/body/div/div[2]/div[1]/div/div[1]/ul/li[3]/ul/li[2]/a")).click();
 
 Thread.sleep(3000);
 
@@ -69,24 +67,25 @@ driver.findElement(By.xpath("/html/body/div/div[2]/div[1]/div/div[1]/ul/li[3]/ul
 
 Thread.sleep(3000);
 
-driver.findElement(By.xpath("/html/body/div/div[2]/div[1]/div/div[1]/ul/li[4]/ul/li[1]/a")).click();
+driver.findElement(By.xpath("//*[@id=\"r\"]/div/div[1]/ul/li[4]/a/span")).click();
 
 Thread.sleep(3000);
 
-driver.findElement(By.xpath("/html/body/div/div[2]/div[1]/div/div[1]/ul/li[4]/ul/li[2]/a")).click();
+driver.findElement(By.xpath("//*[@id=\"r\"]/div/div[1]/ul/li[4]/ul/li[2]/a")).click();
 
 Thread.sleep(3000);
 
-driver.findElement(By.xpath("/html/body/div/div[2]/div[1]/div/div[1]/ul/li[4]/ul/li[3]/a")).click();
+driver.findElement(By.xpath("//*[@id=\"r\"]/div/div[1]/ul/li[4]/ul/li[3]/a")).click();
 
 Thread.sleep(3000);
 
-driver.findElement(By.xpath("/html/body/div/div[2]/div[1]/div/div[1]/ul/li[4]/ul/li[4]/a")).click();
+driver.findElement(By.xpath("//*[@id=\"r\"]/div/div[1]/ul/li[4]/ul/li[4]/a")).click();
 
 Thread.sleep(3000);
 
-driver.findElement(By.xpath("/html/body/div/div[2]/div[1]/div/div[1]/ul/li[4]/ul/li[5]/a")).click();*/
+driver.findElement(By.xpath("//*[@id=\"r\"]/div/div[1]/ul/li[4]/ul/li[5]/a")).click();
 
+Thread.sleep(3000);
 
 
 }
